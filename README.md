@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Zinary Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Zinary Test is a React-based project that uses Vite as a build tool. It includes various UI components from Shadcn UI, charting with Recharts, state management with Zustand, and styling with Tailwind CSS. This project also leverages TypeScript for type safety and ESLint for code quality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd zinary-test
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Install dependencies:
+```bash 
+npm install
+```
+## Scripts
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Development Server: Start the development server with Vite.
+``` bash
+  npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Build: Build the project for production.
+
+```bash
+npm run build
+```
+
+- Lint: Run ESLint to check for linting errors.
+```
+bash
+npm run lint
+```
+
+- Preview: Preview the production build locally.
+
+```bash
+npm run preview
+```
+
+## Features
+
+- Shadcn UI: Utilizes various Radix UI components for a consistent design system.
+- Recharts: Includes powerful charting capabilities.
+- Tailwind CSS: Uses Tailwind CSS for utility-first styling.
+- Zustand: State management using Zustand.
+- TypeScript: Type-safe code with TypeScript.
+- ESLint: Ensures code quality with ESLint and various plugins.
+
+## Contributing
+- Fork the repository.
+- Create a new branch: git checkout -b feature-branch
+- Make your changes and commit them: git commit -m 'Add new feature'
+- Push to the branch: git push origin feature-branch
+- Submit a pull request.
+
+
+
+
+
