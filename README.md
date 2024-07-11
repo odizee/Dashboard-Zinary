@@ -1,15 +1,15 @@
-# Zinary Test
+# Dashboard Zinary
 
 ## Overview
 
-Zinary Test is a React-based project that uses Vite as a build tool. It includes various UI components from Shadcn UI, charting with Recharts, state management with Zustand, and styling with Tailwind CSS. This project also leverages TypeScript for type safety and ESLint for code quality.
+Dashboard Zinary is a React-based project that uses Vite as a build tool. It includes various UI components from Shadcn UI, charting with Recharts, state management with Zustand, and styling with Tailwind CSS. This project also leverages TypeScript for type safety and ESLint for code quality.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd zinary-test
+   cd Dashboard Zinary
 
 ## Install dependencies:
 ```bash 
